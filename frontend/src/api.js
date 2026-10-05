@@ -1,4 +1,6 @@
-const API_URL = "http://127.0.0.1:8001";
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "http://127.0.0.1:8001";
 
 export async function apiFetch(
   endpoint,
@@ -28,6 +30,7 @@ export async function apiFetch(
     localStorage.removeItem(
       "forensics_token"
     );
+
     localStorage.removeItem(
       "forensics_user"
     );

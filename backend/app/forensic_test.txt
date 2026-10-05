@@ -1,0 +1,11 @@
+User accessed suspicious website https://example.com/login
+
+Connection observed from 192.168.1.25
+
+Contact: investigator@example.com
+
+Process: powershell.exe
+
+Possible malware activity detected.
+
+Keyword: ransomware
